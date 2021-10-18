@@ -74,7 +74,8 @@ print(lista_studentow)
 #Zad 9 ????????????
 
 slownik_studentów = dict(lista_studentow)
-#slownik_studentów = slownik_studentów + dict((151621, '23'))
+slownik_studentów['1324563'] = "25 lat,  siemanko@gmail.com, 1998, Olsztyn, Bublewicza 25"
+slownik_studentów['1374563'] = "22 lata,  drugie@gmail.com, 2001, Olonsk, JakasUlica 17"
 print(slownik_studentów)
 
 #Zad 10
